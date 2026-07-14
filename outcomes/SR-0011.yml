@@ -1,0 +1,37 @@
+uid: SR-0011
+type: system_requirement
+status: approved
+title: CAF B1.b — Policy, Process and Procedure Implementation
+text: You have successfully implemented your security policies, processes and procedures and
+  can demonstrate the security benefits achieved.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: B1.b
+  igp_not_achieved:
+  - Policies, processes and procedures are ignored or only partially followed.
+  - How your policies, processes and procedures support the resilience of your essential function(s)
+    is not well understood.
+  - Staff are unaware of their responsibilities under your policies, processes and procedures.
+  - You do not attempt to detect breaches of policies, processes and procedures.
+  - Policies, processes and procedures lack integration with other organisational policies,
+    processes and procedures.
+  - Your policies, processes and procedures are not well communicated across your organisation.
+  igp_partially_achieved:
+  - Most of your policies, processes and procedures are followed and their application is monitored.
+  - Your policies, processes and procedures are integrated with other organisational policies,
+    processes and procedures, including HR assessments of individuals' trustworthiness.
+  - All staff are aware of their responsibilities under your policies, processes and procedures.
+  - All breaches of policies, processes and procedures with the potential to adversely impact
+    the essential function(s) are fully investigated. Other breaches are tracked, assessed for
+    trends and action is taken to understand and address.
+  igp_achieved:
+  - All your policies, processes and procedures are followed, their correct application and
+    security effectiveness is evaluated.
+  - Your policies, processes and procedures are integrated with other organisational policies,
+    processes and procedures, including HR assessments of individuals' trustworthiness.
+  - Your policies, processes and procedures are effectively and appropriately communicated across
+    all levels of the organisation resulting in good staff awareness of their responsibilities.
+  - Appropriate action is taken to address all breaches of policies, processes and procedures
+    with potential to adversely impact the essential function(s) including aggregated breaches.

@@ -1,0 +1,34 @@
+uid: SR-0007
+type: system_requirement
+status: approved
+title: CAF A3.a — Asset Management
+text: Asset Management
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: A3.a
+  igp_not_achieved:
+  - Inventories of assets relevant to network and information systems supporting your essential
+    function(s) are incomplete, non-existent or inadequately detailed.
+  - Only certain domains or types of asset are documented and understood. Dependencies between
+    assets are not understood (such as the dependencies between IT and OT).
+  - Information assets, which could include personally identifiable information and / or important
+    / critical data, are stored for long periods of time with no clear business need or retention
+    policy.
+  - Knowledge critical to the management, operation, or recovery of network and information
+    systems supporting your essential function(s) is held by one or two key individuals with
+    no succession plan.
+  - Asset inventories are neglected and out of date.
+  igp_achieved:
+  - All assets relevant to the secure operation of network and information systems supporting
+    your essential function(s) are identified and inventoried (at a suitable level of detail).
+    The inventory is kept up-to-date.
+  - Dependencies on supporting infrastructure (e.g. power, cooling etc) are recognised and recorded.
+  - You have prioritised your assets according to their importance to the operation of network
+    and information systems supporting your essential function(s).
+  - You have assigned responsibility for managing all assets, including physical assets, relevant
+    to the operation of network and information systems supporting your essential function(s).
+  - Assets relevant to network and information systems supporting your essential function(s)
+    are managed with cyber security in mind throughout their lifecycle, from creation through
+    to eventual decommissioning or disposal.

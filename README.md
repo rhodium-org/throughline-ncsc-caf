@@ -9,10 +9,9 @@ This repository holds no application code. It is a directory of small YAML items
 permanent UIDs, validated by `tl check`. Consumers import it under a namespace and
 reference its contributing outcomes as `caf:SR-0007`.
 
-> **Status: vertical slice under review.** This currently contains the four Objective
-> roots plus one representative Principle per Objective (A3, B6, C2, D2) and their six
-> Contributing Outcomes — the shape being reviewed before the full 14-principle /
-> 41-outcome CAF catalogue is transcribed.
+> **Status: full CAF 4.0 catalogue.** This holds the complete framework — all four
+> Objectives, all fourteen Principles and all forty-one Contributing Outcomes, each with its
+> published Indicators of Good Practice.
 
 ## Status
 
@@ -21,10 +20,10 @@ A grounded graph of
 4
 <!-- tl:end --> Objective intents,
 <!-- tl:count type == 'user_requirement' -->
-4
+14
 <!-- tl:end --> Principle requirements and
 <!-- tl:count type == 'system_requirement' -->
-6
+41
 <!-- tl:end --> contributing-outcome requirements, published to [`docs/spec.md`](docs/spec.md).
 The counts are rendered from the live graph by `tl:count`, so they cannot drift.
 

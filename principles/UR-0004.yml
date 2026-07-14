@@ -1,12 +1,14 @@
 uid: UR-0004
 type: user_requirement
 status: approved
-title: D2 — Lessons Learned
-text: Lessons Learned
-rationale: When an incident occurs, steps are taken to understand its causes and to ensure remediating
-  action is taken to protect against future incidents.
+title: A4 — Supply Chain
+text: Supply Chain
+rationale: The organisation understands and manages security risks to network and information
+  systems supporting the operation of essential functions that arise as a result of dependencies
+  on suppliers. This includes ensuring that appropriate measures are employed where third party
+  services are used.
 links:
-- target: INT-0004
+- target: INT-0001
   type: derives_from
 attrs:
-  source_ref: D2
+  source_ref: A4

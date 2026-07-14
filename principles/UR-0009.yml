@@ -1,0 +1,13 @@
+uid: UR-0009
+type: user_requirement
+status: approved
+title: B5 — Resilient Networks and Systems
+text: Resilient Networks and Systems
+rationale: The organisation builds resilience against cyber attack and system failure into the
+  design, implementation, operation and management of systems that support the operation of
+  your essential function(s).
+links:
+- target: INT-0002
+  type: derives_from
+attrs:
+  source_ref: B5

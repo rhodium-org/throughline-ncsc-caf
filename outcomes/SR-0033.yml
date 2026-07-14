@@ -1,0 +1,40 @@
+uid: SR-0033
+type: system_requirement
+status: approved
+title: CAF C1.d — Triage of Security Alerts
+text: You contextualise alerts with knowledge of the threat and your systems, to identify security
+  incidents as well as responding to all alerts appropriately.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: C1.d
+  igp_not_achieved:
+  - You do not triage alerts from your detection security technologies (e.g. AV, IDS).
+  - You do not categorise alerts and incidents by type and priority / severity level.
+  - You do not have Standard Operating Procedures (SOPs) / Playbooks / Runbooks available for
+    use during triage.
+  - You do not keep records of triage performed.
+  - You do not have a sufficient understanding of normal user or system behaviour to make effective
+    decisions within triage.
+  igp_partially_achieved:
+  - You investigate and triage alerts from some security tools and take action.
+  - You have created, made available and use when appropriate, Standard Operating Procedures
+    (SOPs) / Playbooks / Runbooks covering the most common use cases. These are regularly reviewed
+    to ensure they remain effective.
+  - You perform some triage and actions taken by monitoring and detection personnel are recorded.
+  - You categorise alerts and incidents by type and priority / severity level.
+  - Your understanding of normal user or system behaviour informs your decision making within
+    triage.
+  igp_achieved:
+  - You investigate and triage alerts from all security tools and take action.
+  - You have created, made available and use when appropriate, Standard Operating Procedures
+    (SOPs) / Playbooks / Runbooks covering all plausible use cases. These are regularly reviewed
+    to ensure they remain effective.
+  - You categorise alerts and incidents by type and priority / severity level.
+  - You document all triage related activities performed by monitoring and detection personnel
+    and these are used to drive improvements
+  - Triage provides enough information for subsequent activities to be prioritised (e.g. the
+    containment of damaging malware).
+  - Your understanding of normal user and system behaviour, and threats, is sufficient for effective
+    decision making within triage.

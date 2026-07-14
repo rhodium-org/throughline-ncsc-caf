@@ -1,13 +1,13 @@
 uid: UR-0002
 type: user_requirement
 status: approved
-title: B6 — Staff Awareness and Training
-text: Staff Awareness and Training
-rationale: Staff have appropriate awareness, knowledge and skills to carry out their organisational
-  roles effectively in relation to the security of network and information systems supporting
-  the operation of your essential function(s).
+title: A2 — Risk Management
+text: Risk Management
+rationale: The organisation takes appropriate steps to identify, assess and understand security
+  risks to network and information systems supporting the operation of essential functions.
+  This includes an overall organisational approach to risk management.
 links:
-- target: INT-0002
+- target: INT-0001
   type: derives_from
 attrs:
-  source_ref: B6
+  source_ref: A2

@@ -1,0 +1,42 @@
+uid: SR-0024
+type: system_requirement
+status: approved
+title: CAF B4.d — Vulnerability Management
+text: You manage known vulnerabilities in network and information systems to prevent adverse
+  impact on your essential function(s).
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: B4.d
+  igp_not_achieved:
+  - You do not understand the exposure of network and information systems supporting your essential
+    function(s) to publicly-known vulnerabilities.
+  - You do not mitigate externally exposed vulnerabilities promptly.
+  - You have not recently tested to verify your understanding of the vulnerabilities of network
+    and information systems that support your essential function(s).
+  - You have not suitably mitigated systems or software that is no longer supported.
+  - You are not pursuing replacement for unsupported systems or software.
+  igp_partially_achieved:
+  - You maintain a current understanding of the exposure of network and information systems
+    supporting your essential function(s) to publicly-known vulnerabilities.
+  - Announced vulnerabilities for all software packages used in network and information systems
+    supporting your essential function(s) are tracked, prioritised and externally exposed vulnerabilities
+    are mitigated (e.g. by patching) promptly.
+  - Some vulnerabilities that are not externally exposed have temporary mitigations for an extended
+    period.
+  - You have temporary mitigations for unsupported systems and software while pursuing migration
+    to supported technology.
+  - You regularly test to fully understand the vulnerabilities of network and information systems
+    that support the operation of your essential function(s).
+  igp_achieved:
+  - You maintain a current understanding of the exposure of network and information systems
+    supporting your essential function(s) to publicly-known vulnerabilities.
+  - Announced vulnerabilities for all software packages used in network and information systems
+    supporting your essential function(s) are tracked, prioritised and mitigated (e.g. by patching)
+    promptly.
+  - You regularly test to fully understand the vulnerabilities of network and information systems
+    that support the operation of your essential function(s) and verify this understanding with
+    third-party testing.
+  - You actively maximise the use of supported software, firmware and hardware in network and
+    information systems supporting your essential function(s).

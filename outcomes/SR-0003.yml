@@ -1,35 +1,34 @@
 uid: SR-0003
 type: system_requirement
 status: approved
-title: CAF B6.b — Cyber Security Training
-text: The people who support the operation of network and information systems supporting your
-  essential function(s) are appropriately trained in cyber security.
+title: CAF A1.c — Decision-making
+text: You have senior-level accountability for the security of network and information systems,
+  and delegate decision-making authority appropriately and effectively. Risks to network and
+  information systems related to the operation of your essential function(s) are considered
+  in the context of other organisational risks.
 links:
-- target: UR-0002
+- target: UR-0001
   type: implements
 attrs:
-  source_ref: B6.b
+  source_ref: A1.c
   igp_not_achieved:
-  - There are teams who operate and support your essential function(s) that lack any cyber security
-    training.
-  - Cyber security training is restricted to specific roles in your organisation.
-  - Cyber security training records for your organisation are lacking or incomplete.
-  - Training is used as a "silver bullet" for all user security behaviours.
-  - The success of training is only measured by the number of people reached, rather than assessing
-    whether it has a positive impact on security behaviours.
-  - Training materials contain out of date or contradictory information, or information that
-    conflicts with other policies, processes or procedures.
-  igp_partially_achieved:
-  - You have defined appropriate cyber security training and awareness activities for all roles
-    in your organisation, from executives to the most junior roles.
-  - You use a range of teaching and communication techniques for cyber security training and
-    awareness to reach the widest audience effectively.
-  - Cyber security information is easily available.
+  - What should be relatively straightforward risk decisions are constantly referred up the
+    chain, or not made.
+  - Risks are resolved informally (or ignored) at a local level when the use of a more formal
+    risk reporting mechanism would be more appropriate.
+  - Decision-makers are unsure of what senior management's risk appetite is, or only understand
+    it in vague terms such as "averse" or "cautious".
+  - Decision-makers are unable to justify their risk management decisions.
+  - Organisational structure causes risk decisions to be made in isolation. (e.g. engineering
+    and IT do not talk to each other about risk).
+  - Risk priorities are too vague to make meaningful distinctions between them. (e.g. almost
+    all risks are rated 'medium' or 'amber').
   igp_achieved:
-  - All people in your organisation, from the most senior to the most junior, follow appropriate
-    cyber security training paths.
-  - Each individuals cyber security training is tracked and refreshed at suitable intervals.
-  - You routinely evaluate your cyber security training and awareness activities to ensure they
-    reach the widest audience and are effective.
-  - You make cyber security information and good practice guidance easily accessible, widely
-    available and you know it is referenced and used within your organisation.
+  - Senior management have visibility of key risk decisions made throughout the organisation.
+  - Risk management decision-makers understand their responsibilities for making effective and
+    timely decisions in the context of the risk appetite regarding the essential function(s),
+    as set by senior management.
+  - Risk management decision-making is delegated and escalated where necessary, across the organisation,
+    to people who have the skills, knowledge, tools and authority they need.
+  - Risk management decisions are regularly reviewed to ensure their continued relevance and
+    validity.

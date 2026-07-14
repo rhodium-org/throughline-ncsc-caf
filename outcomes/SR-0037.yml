@@ -1,0 +1,38 @@
+uid: SR-0037
+type: system_requirement
+status: approved
+title: CAF D1.a — Response Plan
+text: You have an up-to-date incident response plan that is grounded in a thorough risk assessment
+  that takes account of network and information systems supporting the operation of your essential
+  function(s) and covers a range of incident scenarios.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: D1.a
+  igp_not_achieved:
+  - Your incident response plan is not documented.
+  - Your incident response plan does not include your organisations identified essential function(s).
+  - Your incident response plan is not well understood by relevant staff.
+  igp_partially_achieved:
+  - Your incident response plan covers network and information systems supporting your essential
+    function(s).
+  - Your incident response plan comprehensively covers scenarios that are focused on likely
+    impacts of known and well understood attacks only.
+  - Your incident response plan is understood by all staff who are involved with your organisation's
+    response function.
+  - Your incident response plan is documented and shared with all relevant stakeholders.
+  - Your incident response plan is readily accessible, even when your organisations IT systems
+    have been adversely affected by an incident.
+  - Your incident response plan is regularly reviewed to ensure it remains effective.
+  igp_achieved:
+  - Your incident response plan is based on a clear understanding of the security risks to network
+    and information systems supporting your essential function(s).
+  - Your incident response plan is comprehensive (i.e. covers the complete lifecycle of an incident,
+    roles and responsibilities, and reporting) and covers likely impacts of both known attack
+    patterns and of possible attacks, previously unseen.
+  - Your incident response plan is documented and integrated with wider organisational business
+    plans and supply chain response plans, as well as dependencies on supporting infrastructure
+    (e.g. power, cooling etc).
+  - Your incident response plan is communicated and understood by the business areas involved
+    with the operation of your essential function(s).

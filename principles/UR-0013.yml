@@ -1,0 +1,13 @@
+uid: UR-0013
+type: user_requirement
+status: approved
+title: D1 — Response and Recovery Planning
+text: Response and Recovery Planning
+rationale: There are well-defined and tested incident management processes in place, that aim
+  to ensure continuity of essential function(s) in the event of system or service failure. Mitigation
+  activities designed to contain or limit the impact of compromise are also in place.
+links:
+- target: INT-0004
+  type: derives_from
+attrs:
+  source_ref: D1

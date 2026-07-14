@@ -1,0 +1,42 @@
+uid: SR-0036
+type: system_requirement
+status: approved
+title: CAF C2.a — Threat Hunting
+text: Threat Hunting
+links:
+- target: UR-0012
+  type: implements
+attrs:
+  source_ref: C2.a
+  igp_not_achieved:
+  - You do not know the resources required for threat hunting.
+  - You do not have access to an effective threat hunting capability.
+  - Your threat hunts do not follow any structure and few if any records are created.
+  igp_partially_achieved:
+  - You have identified the resources required to perform threat hunting and are able to deploy
+    these, in a timely manner, on an occasional basis.
+  - You deploy an effective threat hunting capability but not frequent enough to match the risks
+    posed to network and information systems supporting your essential function(s) (e.g. you
+    perform threat hunts in response to a tip off from a reputable source).
+  - Your threat hunts follow pre-determined and documented methods (e.g. hypothesis driven,
+    data driven, entity driven) designed to identify adverse activity not detected by automated
+    detections.
+  - You document details of threat hunts and post hunt analysis.
+  igp_achieved:
+  - You understand the resources required to perform threat hunting and these are deployed as
+    part of business as usual.
+  - You deploy threat hunting resources at a frequency that matches the risks posed to network
+    and information systems supporting your essential function(s).
+  - Your threat hunts follow pre-determined and documented methods (e.g. hypothesis driven,
+    data driven, entity driven) designed to identify adverse activity not detected by automated
+    detections.
+  - You turn threat hunts into automated detections and alerting where appropriate.
+  - You routinely record details of previous threat hunts and post hunt activities. You use
+    these to drive improvements in your threat hunting and security posture.
+  - You have justified confidence in the effectiveness of your threat hunts and the threat hunting
+    process is reviewed and updated to match the risks posed to network and information systems
+    supporting your essential function(s).
+  - You leverage automation to improve threat hunts where appropriate (e.g. some stages of the
+    threat hunting process are automated).
+  - Your threat hunts focus on the tactics, techniques and procedures (TTPs) of threats over
+    atomic IoCs (e.g. hashes, IP addresses, domain names etc).

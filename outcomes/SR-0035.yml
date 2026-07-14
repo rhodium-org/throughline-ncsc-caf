@@ -1,0 +1,56 @@
+uid: SR-0035
+type: system_requirement
+status: approved
+title: CAF C1.f — Understanding User's and System's Behaviour, and Threat Intelligence
+text: Threats to the operation of network and information systems, and corresponding user and
+  system behaviour, are sufficiently understood. These are used to detect cyber security incidents.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: C1.f
+  igp_not_achieved:
+  - Your organisation has no sources of threat intelligence.
+  - You do not evaluate the usefulness of your threat intelligence or share feedback with providers
+    or other users.
+  - You have no awareness of the steps necessary to make best use of threat intelligence for
+    security monitoring.
+  - Threat intelligence is unreliable and / or is not actioned by the appropriate users or systems
+    in a timely manner.
+  - You have no established understanding of what abnormalities to look for that might signify
+    adverse activities.
+  - You do not receive updates for all your detection security technologies (e.g. AV, IDS).
+  - You do not understand normal user and system behaviour sufficiently to be able to use abnormalities
+    to detect adverse activity.
+  igp_partially_achieved:
+  - You know how effective your threat intelligence is (e.g. by tracking how threat intelligence
+    helps you identify security incidents).
+  - Your organisation may use threat intelligence services, but you do not necessarily choose
+    sources or providers specifically because of your business needs, or specific threats in
+    your sector (e.g. sector-based infoshare, software vendors, anti-virus providers, specialist
+    threat intel firms, special interest groups).
+  - The user and system abnormalities from past attacks and threat intelligence, on your and
+    other network and information systems, are used to signify adverse activity.
+  - You receive regular updates for all of your detection security technologies (e.g. AV, IDS).
+  - You understand normal user and system abnormalities fully, to such an extent that searching
+    for system abnormalities is an effective way of detecting adverse activity (e.g. you fully
+    understand which systems should and should not communicate and when).
+  - The user and system abnormalities you monitor for are based on the nature of adverse activities
+    likely to impact network and information systems supporting the operation of your essential
+    function(s).
+  - The user and system abnormalities indicative of adverse activity you use are regularly updated
+    to reflect changes in network and information systems supporting your essential function(s)
+    and current threat intelligence.
+  - You possess the capability to share threat intelligence (e.g. ways to effectively detect
+    adversaries) with the threat community / defender community (sector partners, threat intelligence
+    providers, government agencies) when required.
+  igp_achieved:
+  - You track the effectiveness of your threat intelligence and actively share feedback on the
+    usefulness of Indicators of Compromise (IoCs) and other intelligence with the threat community
+    (e.g. sector partners, threat intelligence providers, government agencies).
+  - When using threat intelligence feeds, these have been selected using risk-based and threat-informed
+    decisions based on your business needs and sector.
+  - You make relevant, reliable and actionable threat intelligence available to the necessary
+    users and systems promptly.
+  - You contextualise threat intelligence and link it to the why and / or how attacks take place
+    for security monitoring.

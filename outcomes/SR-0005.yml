@@ -1,29 +1,47 @@
 uid: SR-0005
 type: system_requirement
 status: approved
-title: CAF D2.a — Post Incident Analysis
-text: When an incident occurs, your organisation takes steps to understand its causes, informing
-  appropriate remediating action.
+title: CAF A2.b — Understanding Threat
+text: You understand the capabilities, methods and techniques of threat actors and what network
+  and information systems they may compromise to adversely impact your essential function(s).
+  This information is used to inform security and resilience risk management decisions, adjusting,
+  enhancing or adding security measures to better defend against threats.
 links:
-- target: UR-0004
+- target: UR-0002
   type: implements
 attrs:
-  source_ref: D2.a
+  source_ref: A2.b
   igp_not_achieved:
-  - You are not usually able to resolve incidents to a root cause or identify the contributing
-    factors within a broader systems context.
-  - You do not have a formal process for investigating causes.
-  - Investigators form theories early in the process and only seek evidence that affirms their
-    belief.
-  - Investigations are solely focused on identifying the person(s) who can be held responsible
-    for the incident.
+  - You are unable to perform threat analysis.
+  - You do not understand the threats to network and information systems supporting your essential
+    function(s).
+  - You do not have a clearly defined set of threat assumptions.
+  - You do not use your understanding of threat to inform your risk management decisions.
+  igp_partially_achieved:
+  - You perform threat analysis and understand how common threats apply to network and information
+    systems supporting your essential function(s).
+  - You understand common types of cyber attacks, including the methods and techniques, and
+    how these might apply to network and information systems supporting your essential function(s).
+    This understanding is kept up to date.
+  - You anticipate what threat actors might target in network and information systems to cause
+    an adverse impact to your essential function(s).
+  - Your understanding of threat is informed by common incidents.
+  - You apply your understanding of threat to inform your risk management decision-making.
   igp_achieved:
-  - Post incident analysis is conducted routinely as a key part of your lessons learned activities
-    following an incident.
-  - Your post incident analysis is comprehensive, considering organisational factors (e.g. policies,
-    processes and procedures), technical factors (e.g. system design, vulnerabilities), human
-    factors (e.g. training, security culture) and any changes to threat.
-  - All relevant incident data is made available to the analysis team to perform post incident
-    analysis.
-  - Your analysis considers what could have happened under plausible, alternative circumstances
-    (e.g. 'what if' / 'if only' scenarios).
+  - You perform detailed threat analysis and understand how this applies to network and information
+    systems supporting your essential function(s), in the context of your sector and wider national
+    infrastructure.
+  - Your detailed understanding of threat includes the methods and techniques available to capable
+    and well-resourced threat actors and how they could be used systematically against network
+    and information systems supporting your essential function(s).
+  - You use appropriate techniques to develop an understanding of network and information systems
+    supporting your essential function(s) from a threat actor's perspective. You anticipate
+    probable attack methods and techniques, targets and objectives, and develop plausible scenarios.
+  - You understand the different steps a capable and well-resourced threat actor would need
+    to take to reach the probable target(s).
+  - You identify and justify what measures can be used at each step to reduce the likelihood
+    of the threat actor reaching the probable target(s) or achieving their objective(s).
+  - You maintain a detailed understanding of current threats (e.g. by threat intelligence and
+    proactive research).
+  - You apply your detailed understanding of threat to inform your risk management decision-making.
+  - You have documented the steps required to undertake detailed threat analysis.

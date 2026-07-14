@@ -1,0 +1,33 @@
+uid: SR-0038
+type: system_requirement
+status: approved
+title: CAF D1.b — Response and Recovery Capability
+text: You have the capability to enact your incident response plan, including effective limitation
+  of impact on the operation of your essential function(s). During an incident, you have access
+  to timely information on which to base your response decisions.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: D1.b
+  igp_not_achieved:
+  - Inadequate arrangements have been made to make the right resources available to implement
+    your response plan.
+  - Your response team members are not equipped to make good response decisions and put them
+    into effect.
+  - Inadequate back-up mechanisms exist to allow the continued operation of your essential function(s)
+    during an incident.
+  igp_achieved:
+  - You understand the resources that will likely be needed to carry out any required response
+    activities, and arrangements are in place to make these resources available.
+  - You understand the types of information that will likely be needed to inform response decisions
+    and arrangements are in place to make this information available.
+  - Your response team members have the skills and knowledge required to decide on the response
+    actions necessary to limit harm, and the authority to carry them out.
+  - Key roles are duplicated, and operational delivery knowledge is shared with all individuals
+    involved in the operations and recovery of the essential function(s).
+  - Back-up mechanisms are available that can be readily activated to allow continued operation
+    of your essential function(s), although possibly at a reduced level, if primary network
+    and information systems fail or are unavailable.
+  - Arrangements exist to augment your organisation's incident response capabilities with external
+    support if necessary (e.g. specialist cyber incident responders).

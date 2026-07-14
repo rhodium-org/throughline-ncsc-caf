@@ -1,0 +1,27 @@
+uid: SR-0039
+type: system_requirement
+status: approved
+title: CAF D1.c — Testing and Exercising
+text: Your organisation carries out exercises to test response plans, using past incidents that
+  affected your (and other) organisation, and scenarios that draw on threat intelligence and
+  your risk assessment.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: D1.c
+  igp_not_achieved:
+  - Exercises test only a discrete part of the process (e.g. that backups are working), but
+    do not consider all areas.
+  - Incident response exercises are not routinely carried out or are carried out in an ad-hoc
+    way.
+  - Outputs from exercises are not fed into the organisation's lessons learned process.
+  - Exercises do not test all parts of the response cycle.
+  igp_achieved:
+  - Exercise scenarios are based on incidents experienced by your and other organisations or
+    are composed using experience or threat intelligence.
+  - Exercise scenarios are documented, regularly reviewed, and validated.
+  - Exercises are routinely run, with the findings documented and used to refine incident response
+    plans and protective security, in line with the lessons learned.
+  - Exercises test all parts of your response cycle relating to your essential function(s) (e.g.
+    restoration of normal function(s) levels).

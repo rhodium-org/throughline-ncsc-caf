@@ -1,0 +1,30 @@
+uid: SR-0027
+type: system_requirement
+status: approved
+title: CAF B5.c — Backups
+text: You hold accessible and secured current backups of data and information needed to recover
+  operation of your essential function(s) following an adverse impact to network and information
+  systems.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: B5.c
+  igp_not_achieved:
+  - Backup coverage is incomplete and does not include all relevant data and information needed
+    to restore the operation of your essential function(s).
+  - Backups are not frequent enough for the operation of your essential function(s) to be restored
+    effectively.
+  - Your restoration process does not restore your essential function(s) in a suitable time
+    frame.
+  igp_partially_achieved:
+  - You have appropriately secured backups (including data, configuration information, software,
+    equipment, processes and knowledge). These backups will be accessible to recover from an
+    extreme event including ransomware attack.
+  - You routinely test backups to ensure that the backup process function(s) correctly and the
+    backups are usable.
+  igp_achieved:
+  - Your comprehensive, automatic and tested technical and procedural backups are secured at
+    centrally accessible or secondary sites to recover from an extreme event.
+  - Backups of all important data and information needed to recover the essential function(s)
+    are made, tested, documented and routinely reviewed.

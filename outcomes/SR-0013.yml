@@ -1,0 +1,43 @@
+uid: SR-0013
+type: system_requirement
+status: approved
+title: CAF B2.b — Device Management
+text: You fully know and have trust in the devices that are used to access your networks, information
+  systems and data that support your essential function(s).
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: B2.b
+  igp_not_achieved:
+  - Users can connect to network and information systems supporting your essential function(s)
+    using devices that are not corporately owned and managed.
+  - Privileged users can perform privileged operations from devices that are not corporately
+    owned and managed.
+  - You have not gained assurance in the security of any third-party devices or networks connected
+    to your systems.
+  - Physically connecting a device to network and information systems gives that device access
+    without device or user authentication.
+  igp_partially_achieved:
+  - Only corporately owned and managed devices can access your essential function(s) network
+    and information systems.
+  - All privileged operations are performed from corporately owned and managed devices. These
+    devices provide sufficient separation, using a risk-based approach, from the activities
+    of standard users.
+  - You have sought to understand the security properties of third-party devices and networks
+    before they can be connected to your systems. You have taken appropriate steps to mitigate
+    any risks identified.
+  - The act of connecting to a network port or cable does not grant access to any systems.
+  - You are able to detect unknown devices being connected to network and information systems
+    and investigate such incidents.
+  igp_achieved:
+  - All privileged operations performed on network and information systems supporting your essential
+    function(s) are conducted from highly trusted devices, such as Privileged Access Workstations,
+    dedicated solely to those operations.
+  - You either obtain independent and professional assurance of the security of third-party
+    devices or networks before they connect to network and information systems, or you only
+    allow third-party devices or networks that are dedicated to supporting network and information
+    systems to connect.
+  - You perform certificate-based device identity management and only allow known devices to
+    access systems necessary for the operation of your essential function(s).
+  - You perform regular scans to detect unknown devices and investigate any findings.

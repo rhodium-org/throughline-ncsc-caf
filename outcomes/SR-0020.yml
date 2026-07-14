@@ -1,0 +1,27 @@
+uid: SR-0020
+type: system_requirement
+status: approved
+title: CAF B3.e — Media / Equipment Sanitisation
+text: Before reuse and / or disposal you appropriately sanitise devices, equipment and removable
+  media holding data important to the operation of network and information systems supporting
+  your essential function(s).
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: B3.e
+  igp_not_achieved:
+  - Some or all devices, equipment or removable media that hold data important to the operation
+    of network and information systems supporting your essential function(s) are reused or disposed
+    of without sanitisation of that data.
+  igp_partially_achieved:
+  - Data important to the operations of network and information systems supporting your essential
+    function(s) is removed from all devices, equipment and removable media before reuse and
+    / or disposal.
+  igp_achieved:
+  - You catalogue and track all devices that contain data important to the operation of network
+    and information systems supporting your essential function(s) (whether a specific storage
+    device or one with integral storage).
+  - Data important to the operation of network and information systems supporting your essential
+    function(s) is removed from all devices, equipment and removable media before reuse and
+    / or disposal using an assured product or service.

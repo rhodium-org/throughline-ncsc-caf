@@ -1,0 +1,54 @@
+uid: SR-0016
+type: system_requirement
+status: approved
+title: CAF B3.a — Understanding Data
+text: You have a good understanding of data important to the operation of network and information
+  systems supporting your essential function(s), where it is stored, where it travels and how
+  unavailability or unauthorised access, uncontrolled release, modification or deletion would
+  adversely impact the essential function(s). This also applies to third parties storing or
+  accessing data important to the operation of your essential function(s).
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: B3.a
+  igp_not_achieved:
+  - You have incomplete knowledge of what data is used by and produced in the operation of network
+    and information systems supporting your essential function(s).
+  - You have not identified the important data on which network and information systems supporting
+    your essential function(s) relies.
+  - You have not identified who has access to data important to the operation of network and
+    information systems supporting your essential function(s).
+  - You have not clearly articulated the impact of data compromise or lack of availability.
+  igp_partially_achieved:
+  - You have identified and catalogued all the data important to the operation of network and
+    information systems supporting your essential function(s), or that would assist a threat
+    actor.
+  - You have identified and catalogued who has access to the data important to the operation
+    of network and information systems supporting your essential function(s).
+  - You regularly review location, transmission, quantity and quality of data important to the
+    operation of network and information systems supporting your essential function(s).
+  - You have identified all mobile devices and media that hold data important to the operation
+    of network and information systems supporting your essential function(s).
+  - You understand and document the impact on your essential function(s) of all relevant scenarios,
+    including unauthorised data access, uncontrolled release, modification or deletion, or when
+    authorised users are unable to appropriately access this data.
+  - You occasionally validate these documented impact statements.
+  igp_achieved:
+  - You have identified and catalogued all the data important to the operation of network and
+    information systems supporting your essential function(s), or that would assist a threat
+    actor.
+  - You have identified and catalogued who has access to the data important to the operation
+    of network and information systems supporting your essential function(s).
+  - You maintain a current understanding of the location, quantity and quality of data important
+    to the operation of network and information systems supporting your essential function(s).
+  - You take steps to remove or minimise unnecessary copies or unneeded historic data.
+  - You have identified all mobile devices and media that may hold data important to the operation
+    of network and information systems supporting your essential function(s).
+  - You maintain a current understanding of the data links used to transmit data that is important
+    to network and information systems supporting your essential function(s).
+  - You understand the context, limitations and dependencies of your important data.
+  - You understand and document the impact on your essential function(s) of all relevant scenarios,
+    including unauthorised data access, uncontrolled release, modification or deletion, or when
+    authorised users are unable to appropriately access this data.
+  - You validate these documented impact statements regularly, at least annually.

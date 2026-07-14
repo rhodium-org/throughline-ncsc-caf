@@ -1,0 +1,43 @@
+uid: SR-0018
+type: system_requirement
+status: approved
+title: CAF B3.c — Stored Data
+text: You have protected stored soft and hard copy data important to the operation of network
+  and information systems supporting your essential function(s).
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: B3.c
+  igp_not_achieved:
+  - You have no, or limited, knowledge of where data important to the operation of network and
+    information systems supporting your essential function(s) is stored.
+  - You have not protected vulnerable stored data important to the operation of network and
+    information systems supporting your essential function(s) in a suitable way.
+  - Backups are incomplete, untested, not adequately secured or could be inaccessible in a disaster
+    recovery or business continuity situation.
+  igp_partially_achieved:
+  - All copies of data important to the operation of network and information systems supporting
+    your essential function(s) are necessary. Where this important data is transferred to less
+    secure systems, the data is provided with limited detail and / or as a read-only copy.
+  - You have applied suitable physical and / or technical means to protect this important stored
+    data from unauthorised access, modification or deletion.
+  - If cryptographic protections are used you apply suitable technical and procedural means,
+    but you have limited or no confidence in the robustness of the protection applied.
+  - You have suitable, secured backups of data to allow the operation of network and information
+    systems supporting your essential function(s) to continue should the original data not be
+    available. This may include off-line or segregated backups, or appropriate alternative forms
+    such as paper copies.
+  igp_achieved:
+  - All copies of data important to the operation of network and information systems supporting
+    your essential function(s) are necessary. Where this important data is transferred to less
+    secure systems, the data is provided with limited detail and / or as a read-only copy.
+  - You have applied suitable physical and / or technical means to protect this important stored
+    data from unauthorised access, modification or deletion.
+  - If cryptographic protections are used you apply suitable technical and procedural means,
+    and you have justified confidence in the robustness of the protection applied.
+  - You have suitable, secured backups of data to allow the operation of network and information
+    systems supporting your essential function(s) to continue should the original data not be
+    available. This may include off-line or segregated backups, or appropriate alternative forms
+    such as paper copies.
+  - Necessary historic or archive data is suitably secured in storage.

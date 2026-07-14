@@ -1,0 +1,13 @@
+uid: UR-0011
+type: user_requirement
+status: approved
+title: C1 — Security Monitoring
+text: Security Monitoring
+rationale: The organisation monitors the security status of network and information systems
+  supporting the operation of essential function(s) in order to detect security events indicative
+  of a security incident.
+links:
+- target: INT-0003
+  type: derives_from
+attrs:
+  source_ref: C1

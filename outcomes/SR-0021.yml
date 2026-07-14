@@ -1,0 +1,48 @@
+uid: SR-0021
+type: system_requirement
+status: approved
+title: CAF B4.a — Secure by Design
+text: You design security into network and information systems that support the operation of
+  your essential function(s). You minimise their attack surface and ensure that the operation
+  of your essential function(s) should not be impacted by the exploitation of any single vulnerability.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: B4.a
+  igp_not_achieved:
+  - Network and information systems supporting the operation of the essential function(s) are
+    not appropriately segregated from other systems.
+  - Internet services, such as browsing and email are accessible from network and information
+    systems supporting your essential function(s).
+  - Data flows between network and information systems supporting your essential function(s)
+    and other systems are complex, making it hard to discriminate between legitimate and illegitimate
+    / malicious traffic.
+  - Remote or third-party accesses circumvent some network controls to gain more direct access
+    to network and information systems supporting the essential function(s).
+  igp_partially_achieved:
+  - You employ appropriate expertise to design network and information systems supporting your
+    essential function(s).
+  - You design strong boundary defences where network and information systems interface with
+    other organisations or the world at large.
+  - You design simple data flows between network and information systems and any external interface
+    to enable effective monitoring.
+  - You design to make network and information system recovery simple.
+  - All inputs to network and information systems supporting your essential function(s) are
+    checked and validated at the network boundary where possible, or additional monitoring is
+    in place for content-based attacks.
+  igp_achieved:
+  - You employ appropriate expertise to design network and information systems supporting your
+    essential function(s).
+  - Network and information systems are segregated into appropriate security zones (e.g. systems
+    supporting the essential function(s) are segregated in a highly trusted, more secure zone).
+  - The network and information systems supporting your essential function(s) are designed to
+    have simple data flows between components to support effective security monitoring.
+  - The network and information systems supporting your essential function(s) are designed to
+    be easy to recover.
+  - Content-based attacks are mitigated for all inputs to network and information systems that
+    affect the essential function(s) (e.g. via transformation and inspection / sanitisation
+    and validation).
+  - If automated decision-making technologies are in use, you design and apply appropriate restrictions
+    to prevent actions that could have an adverse impact on network and information systems
+    supporting your essential function(s).

@@ -1,0 +1,31 @@
+uid: SR-0023
+type: system_requirement
+status: approved
+title: CAF B4.c — Secure Management
+text: You manage your organisation's network and information systems that support the operation
+  of your essential function(s) to enable and maintain security.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: B4.c
+  igp_not_achieved:
+  - Your systems and devices supporting the operation of the essential function(s) are administered
+    or maintained from devices that are not corporately owned and managed.
+  - You do not have good or current technical documentation of network and information systems.
+  igp_partially_achieved:
+  - Your systems and devices supporting the operation of the essential function(s) are only
+    administered or maintained by authorised privileged users from devices sufficiently separated,
+    using a risk-based approach, from the activities of standard users.
+  - Technical knowledge about network and information systems, such as documentation and network
+    diagrams, is regularly reviewed and updated.
+  - You prevent, detect and remove malware, and unauthorised software. You use technical, procedural
+    and physical measures as necessary.
+  igp_achieved:
+  - Your systems and devices supporting the operation of the essential function(s) are only
+    administered or maintained by authorised privileged users from highly trusted devices, such
+    as Privileged Access Workstations, dedicated solely to those operations.
+  - You regularly review and update technical knowledge about network and information systems,
+    such as documentation and network diagrams, and ensure they are securely stored.
+  - You prevent, detect and remove malware, and unauthorised software. You use technical, procedural
+    and physical measures as necessary.

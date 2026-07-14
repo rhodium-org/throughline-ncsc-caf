@@ -1,0 +1,59 @@
+uid: SR-0030
+type: system_requirement
+status: approved
+title: CAF C1.a — Sources and Tools for Logging and Monitoring
+text: The data sources and tools that you include in your logging and monitoring allow for timely
+  identification of events which might adversely affect the security or resiliency of network
+  and information system(s) supporting the operation of your essential function(s).
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: C1.a
+  igp_not_achieved:
+  - Data relating to the security and operation of network and information systems supporting
+    your essential function(s) is not collected.
+  - You are not able to audit the activities of users and systems in relation to network and
+    information systems supporting your essential function(s).
+  - You do not monitor traffic crossing your network boundary.
+  - Log data cannot be synchronised using an accurate common time source.
+  - Logs are stored in locations where they are not readily available to authorised users and
+    systems.
+  - Your monitoring tools cannot be configured to make use of new log streams as they come online.
+  - Your monitoring tools are only able to make use of a fraction of the log data being collected.
+  - You do not understand where log data is stored or how long it should be stored for.
+  - You have no way of ensuring log data is being captured as expected and available when needed.
+  igp_partially_achieved:
+  - Data relating to the security and operation of some areas of network and information systems
+    supporting your essential function(s) is collected but coverage is not comprehensive.
+  - Some user and system monitoring is done, but not covering a fully agreed list of suspicious
+    or undesirable behaviour.
+  - You monitor traffic crossing your network boundary (including IP address connections as
+    a minimum).
+  - Some but not all log datasets can be easily queried with search tools to aid in investigations.
+  - Your monitoring tools work with most log data, with some configuration.
+  - Your monitoring tools can make use of log data that would capture all common threats.
+  - You ensure log data is available for analysis when needed.
+  igp_achieved:
+  - Monitoring is based on a thorough understanding of network and information systems supporting
+    your essential function(s), techniques used by threat actors, and awareness of what logging
+    and monitoring is required to detect events and incidents that could affect the operation
+    of your essential function(s).
+  - Your monitoring data provides enough detail to promptly and reliably detect security events,
+    incidents and support investigations. This is reviewed regularly and after a significant
+    security event.
+  - Extensive monitoring of user and system activity in relation to network and information
+    systems that support your essential function(s) enables you to promptly detect policy violations,
+    suspicious or undesirable user and system behaviour, deviations from normal / routine behaviour
+    or abnormalities indicative of adverse activity.
+  - Your logging and monitoring capability includes host-based and network monitoring.
+  - All new network and information systems supporting your essential function(s) are considered
+    as potential logging and monitoring data sources to maintain a comprehensive monitoring
+    capability.
+  - Log datasets are synchronised including using an accurate common time source so that separate
+    datasets can be correlated in appropriate ways.
+  - You enrich log data with other network and information systems data to provide a more comprehensive
+    picture of actions and behaviours.
+  - Your monitoring tools make use of log data to pinpoint activity.
+  - You regularly review the data sources and tools included in your logging and monitoring
+    strategy to ensure it remains effective.

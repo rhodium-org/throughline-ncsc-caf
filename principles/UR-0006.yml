@@ -1,0 +1,13 @@
+uid: UR-0006
+type: user_requirement
+status: approved
+title: B2 — Identity and Access Control
+text: Identity and Access Control
+rationale: The organisation understands, documents and manages access to network and information
+  systems supporting the operation of essential functions. Users (or automated functions) that
+  can access data or systems are appropriately verified, authenticated and authorised.
+links:
+- target: INT-0002
+  type: derives_from
+attrs:
+  source_ref: B2

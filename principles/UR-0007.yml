@@ -1,0 +1,15 @@
+uid: UR-0007
+type: user_requirement
+status: approved
+title: B3 — Data Security
+text: Data Security
+rationale: Data stored or transmitted electronically is protected from actions such as unauthorised
+  access, modification, or deletion that may cause an adverse impact on essential functions.
+  Such protection extends to the means by which authorised users, devices and systems access
+  critical data necessary for the operation of essential functions. It also covers information
+  that would assist a threat actor, such as design details of network and information systems.
+links:
+- target: INT-0002
+  type: derives_from
+attrs:
+  source_ref: B3

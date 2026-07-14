@@ -1,0 +1,34 @@
+uid: SR-0019
+type: system_requirement
+status: approved
+title: CAF B3.d — Mobile Data
+text: You have protected data important to the operation of network and information systems
+  supporting your essential function(s) on mobile devices (e.g. smartphones, tablets and laptops).
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: B3.d
+  igp_not_achieved:
+  - You do not know which mobile devices may hold data important to the operation of network
+    and information systems supporting your essential function(s).
+  - You allow data important to the operation of network and information systems supporting
+    your essential function(s) to be stored on devices not managed by your organisation, or
+    to at least equivalent standard.
+  - Data on mobile devices is not technically secured, or only some is secured.
+  igp_partially_achieved:
+  - You know which mobile devices hold data important to the operation of network and information
+    systems supporting your essential function(s).
+  - Data important to the operation of network and information systems supporting your essential
+    function(s) is stored on mobile devices only when they have at least the security standard
+    aligned to your overarching security policies.
+  - Data on mobile devices is technically secured.
+  igp_achieved:
+  - Mobile devices that hold data that is important to the operation of network and information
+    systems supporting your essential function(s) are catalogued, are under your organisation's
+    control and configured according to best practice for the platform, with appropriate technical
+    and procedural policies in place.
+  - Your organisation can remotely wipe all mobile devices holding data important to the operation
+    of network and information systems supporting your essential function(s).
+  - You have minimised this data on these mobile devices. Some data may be automatically deleted
+    off mobile devices after a certain period.

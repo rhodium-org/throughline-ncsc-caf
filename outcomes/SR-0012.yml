@@ -1,0 +1,53 @@
+uid: SR-0012
+type: system_requirement
+status: approved
+title: CAF B2.a — Identity Verification, Authentication and Authorisation
+text: You robustly verify, authenticate and authorise access to network and information systems
+  supporting your essential function(s).
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: B2.a
+  igp_not_achieved:
+  - Initial identity verification is not robust enough to provide an acceptable level of confidence
+    of a user's identity profile.
+  - Authorised users and systems with access to networks or information systems on which your
+    essential function(s) depends cannot be individually identified.
+  - Unauthorised individuals or devices can access your network or information systems on which
+    your essential function(s) depends.
+  - The number of authorised users and systems that have access to network and information systems
+    is not limited to the minimum necessary to support your essential function(s).
+  - Your approach to authenticating users, devices and systems does not follow up to date best
+    practice.
+  igp_partially_achieved:
+  - Your process of initial identity verification is robust enough to provide a reasonable level
+    of confidence of a user's identity profile before allowing an authorised user access to
+    network and information systems that support your essential function(s).
+  - All authorised users and systems with access to network and information systems supporting
+    your essential function(s) are individually identified and authenticated.
+  - The number of authorised users and systems that have access to network and information systems
+    is limited to the minimum necessary to support your essential function(s).
+  - You use additional strong authentication mechanisms, such as multi-factor authentication
+    (MFA), for privileged access to all network and information systems that operate or support
+    your essential function(s).
+  - You individually authenticate and authorise all remote access to all network and information
+    systems that support your essential function(s).
+  - The list of users and systems with access to network and information systems supporting
+    and delivering the essential function(s) is reviewed on a regular basis, at least annually.
+  - Your approach to authenticating users, devices and systems follows up to date best practice.
+  igp_achieved:
+  - Your process of initial identity verification is robust enough to provide a high level of
+    confidence of a user's identity profile before allowing an authorised user access to network
+    and information systems that support your essential function(s).
+  - Only authorised and individually authenticated users can physically access and logically
+    connect to your network or information systems on which your essential function(s) depends.
+  - The number of authorised users and systems that have access to network and information systems
+    is limited to the minimum necessary to support your essential function(s).
+  - You use additional strong authentication mechanisms, such as multi-factor authentication
+    (MFA), for all user access, including remote access, to all network and information systems
+    that operate or support your essential function(s).
+  - The list of users and systems with access to network and information systems supporting
+    and delivering the essential function(s) is reviewed on a regular basis, at least every
+    six months.
+  - Your approach to authenticating users, devices and systems follows up to date best practice.

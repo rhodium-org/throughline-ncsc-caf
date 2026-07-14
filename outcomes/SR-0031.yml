@@ -1,0 +1,35 @@
+uid: SR-0031
+type: system_requirement
+status: approved
+title: CAF C1.b — Securing Logs
+text: You hold log data securely and grant appropriate user and system access only to accounts
+  with a business need. Log data is held for a suitable retention period, after which it is
+  deleted.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: C1.b
+  igp_not_achieved:
+  - It is possible for log data to be easily edited or deleted by unauthorised users / systems
+    or attackers.
+  - There is no control of the users and systems that can access log data.
+  - There is no monitoring of the access to log data.
+  - There are no policies covering access to log data.
+  igp_partially_achieved:
+  - Only authorised users and systems can access log data.
+  - There is some monitoring of access to log data (e.g. copying, deleting or modification,
+    or even viewing).
+  - You have defined and implemented retention periods for log data.
+  - You have given legitimate reasons for accessing log data in your policies.
+  igp_achieved:
+  - Appropriate access to log data is limited to those users and systems with a business need.
+  - The logging architecture has mechanisms, policies, processes and procedures to ensure that
+    it can protect itself from threats comparable to those that it is trying to identify. This
+    includes protecting the function itself and the data within it.
+  - Log data analysis and normalisation is only performed on copies of the log data keeping
+    the master copy unaltered.
+  - All actions involving log data (e.g. copying, deleting, modification, or even viewing) can
+    be traced back to a unique user or system.
+  - The integrity of log data is protected, verified and any modification, including deletion,
+    is detected and attributed.

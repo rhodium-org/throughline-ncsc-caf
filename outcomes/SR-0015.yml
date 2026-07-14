@@ -1,0 +1,38 @@
+uid: SR-0015
+type: system_requirement
+status: approved
+title: CAF B2.d — Identity and Access Management (IdAM)
+text: You closely manage and maintain identity and access control for users, devices and systems
+  accessing network and information systems supporting your essential function(s).
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: B2.d
+  igp_not_achieved:
+  - Greater access rights are granted than necessary.
+  - Identity validation and requirement for access of a user, device or systems is not carried
+    out.
+  - User access rights are not reviewed when users change roles.
+  - User access rights remain active when users leave your organisation.
+  - Access rights granted to devices or systems to access other devices and systems are not
+    reviewed on a regular basis (at least annually).
+  igp_partially_achieved:
+  - You follow a robust procedure to verify each user and issue the minimum required access
+    rights.
+  - You regularly review access rights and those no longer needed are revoked.
+  - User access rights are reviewed when users change roles via your joiners, leavers and movers
+    process.
+  - All user, device and system access to the systems supporting the essential function(s) is
+    logged and monitored, but it is not compared to other log data or access records.
+  igp_achieved:
+  - You follow a robust procedure to verify each user and issue the minimum required access
+    rights, and the application of the procedure is regularly audited.
+  - User access rights are reviewed both when people change roles via your joiners, leavers
+    and movers process and at regular intervals - at least annually.
+  - All user, device and systems access to network and information systems supporting your essential
+    function(s) is logged and monitored.
+  - You regularly review access logs and correlate this data with other access records and expected
+    activity.
+  - Attempts by unauthorised users, devices or systems to connect to network and information
+    systems supporting your essential function(s) are alerted, promptly assessed and investigated.

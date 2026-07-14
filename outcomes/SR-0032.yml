@@ -1,0 +1,62 @@
+uid: SR-0032
+type: system_requirement
+status: approved
+title: CAF C1.c — Generating Alerts
+text: Evidence of potential security incidents contained in your monitoring data is reliably
+  identified and where appropriate triggers alerts.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: C1.c
+  igp_not_achieved:
+  - You do not apply updates to your detection security technologies in a timely way, after
+    receiving them (e.g. AV signature updates, other threat signatures or Indicators of Compromise
+    (IoCs)).
+  - Security alerts relating to network and information systems supporting your essential function(s)
+    are not prioritised.
+  - The enrichment of security alerts within network and information systems supporting your
+    essential function(s) cannot be performed.
+  - You do not confidently detect the presence of IoCs on network and information systems supporting
+    your essential function(s), such as known malicious command and control signatures (e.g.
+    because applying the indicator is difficult or your log data is not sufficiently detailed).
+  - You do not monitor for user or system abnormalities indicative of adverse activity.
+  - Logs are monitored infrequently.
+  igp_partially_achieved:
+  - You easily detect the presence of Indicators of Compromise (IoCs) on network and information
+    systems supporting your essential function(s), such as known malicious command and control
+    signatures.
+  - You apply some updates, new signatures and IoCs in a timely way.
+  - Security alerts relating to network and information systems that support your essential
+    function(s) are prioritised.
+  - The enrichment of alerts within network and information systems supporting your essential
+    function(s) is performed but not as part of the original alert.
+  - Detections and alerting rely on off the shelf tooling without customisation or users reporting
+    events and potential incidents.
+  - There is a documented and shared process for all users who support the operation of the
+    essential function to report events and potential security incidents.
+  - Where appropriate, detections and alerting result in automated actions being taken. (e.g.
+    malware identified by AV is quarantined).
+  - You monitor on an irregular basis for user or system abnormalities indicative of adverse
+    activity.
+  - Logs are monitored at regular intervals.
+  igp_achieved:
+  - You easily detect the presence of Indicators of Compromise (IoCs) on network and information
+    systems supporting your essential function(s), such as known malicious command and control
+    signatures, as well as abnormalities or behaviours indicative of adverse activity.
+  - You apply all updates, new signatures and IoCs promptly.
+  - Security alerts relating to all network and information systems supporting your essential
+    function(s) are prioritised and this information is used to support incident management.
+  - Alerts are routinely enriched within network and information systems supporting your essential
+    function(s). The enrichment of these alerts is performed in almost real time and as part
+    of the original alert.
+  - Alerts and the underlying detections are regularly reviewed and tested to ensure they are
+    generated promptly and reliably, and it is possible to distinguish genuine security incidents
+    from false alarms.
+  - Alerts and the underlying detection rules are customisable and tuned to reduce false positives
+    as well as optimising responses.
+  - Detections and alerting may use off the shelf tooling and rules as well as custom tooling
+    and / or rules.
+  - You continuously monitor for user and system abnormalities indicative of adverse activity
+    generating alerts based on the results of such monitoring.
+  - Logs are monitored continuously in near real time.

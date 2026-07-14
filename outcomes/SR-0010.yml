@@ -1,0 +1,47 @@
+uid: SR-0010
+type: system_requirement
+status: approved
+title: CAF B1.a — Policy, Process and Procedure Development
+text: You have developed and continue to improve a set of cyber security and resilience policies,
+  processes and procedures that manage and mitigate the risk of adverse impact to network and
+  information systems supporting your essential function(s).
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: B1.a
+  igp_not_achieved:
+  - Your policies, processes and procedures are absent or incomplete.
+  - Policies, processes and procedures are not applied universally or consistently.
+  - People often or routinely circumvent policies, processes and procedures to achieve business
+    objectives.
+  - Your organisation's security governance and risk management approach has no bearing on your
+    policies, processes and procedures.
+  - System security is totally reliant on users' careful and consistent application of manual
+    security processes.
+  - Policies, processes and procedures have not been reviewed in response to major changes (e.g.
+    technology or regulatory framework), or within a suitable period.
+  - Policies, processes and procedures are not readily available to staff, too detailed to remember,
+    or too hard to understand.
+  igp_partially_achieved:
+  - Your policies, processes and procedures document your overarching security governance and
+    risk management approach, technical security practice and specific regulatory compliance.
+  - You review and update policies, processes and procedures in response to major cyber security
+    incidents.
+  igp_achieved:
+  - You fully document your overarching security governance and risk management approach, technical
+    security practice and specific regulatory compliance.
+  - Cyber security is integrated and embedded throughout policies, processes and procedures
+    and key performance indicators are reported to your executive management.
+  - Your organisation's policies, processes and procedures are developed to be practical, usable
+    and appropriate to mitigate the risk of adverse impact to network and information systems
+    supporting your essential function(s).
+  - Policies, processes and procedures that rely on user behaviour are practical, appropriate
+    and achievable.
+  - You review and update policies, processes and procedures at suitably regular intervals to
+    ensure they remain relevant. This is in addition to reviews following a major cyber security
+    incident.
+  - Any changes to the essential function(s) or the threat it faces triggers a review of policies,
+    processes and procedures.
+  - Your systems are designed so that they remain secure even when user security policies, processes
+    and procedures are not always followed.

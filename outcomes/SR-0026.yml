@@ -1,0 +1,40 @@
+uid: SR-0026
+type: system_requirement
+status: approved
+title: CAF B5.b — Design for Resilience
+text: You design network and information systems supporting your essential function(s) to be
+  resilient to cyber security incidents. Systems are appropriately segregated and resource limitations
+  are mitigated.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: B5.b
+  igp_not_achieved:
+  - Network and information systems supporting the operation of your essential function(s) are
+    not appropriately segregated.
+  - Internet services, such as browsing and email, are accessible from network and information
+    systems supporting your essential function(s).
+  - You do not understand or lack plans to mitigate all resource limitations that could adversely
+    affect your essential function(s).
+  igp_partially_achieved:
+  - Network and information systems supporting the operation of your essential function(s) are
+    logically separated from your business systems (e.g. they reside on the same network as
+    the rest of the organisation but within a DMZ).
+  - Internet services, such as browsing and email, are not accessible from network and information
+    systems supporting your essential function(s).
+  - Resource limitations (e.g. network bandwidth, single network paths) have been identified
+    but not fully mitigated.
+  igp_achieved:
+  - Network and information systems supporting the operation of your essential function(s) are
+    segregated from other business and external systems by appropriate technical and physical
+    means (e.g. separate network and system infrastructure with independent user administration).
+  - Internet services, such as browsing and email, are not accessible from network and information
+    systems supporting your essential function(s).
+  - You have identified and mitigated all resource limitations (e.g. bandwidth limitations and
+    single network paths).
+  - You have identified and mitigated any geographical constraints or weaknesses. (e.g. systems
+    that your essential function(s) depends upon are replicated in another location, important
+    network connectivity has alternative physical paths and service providers).
+  - You review and update assessments of dependencies, resource and geographical limitations
+    and mitigations when necessary.

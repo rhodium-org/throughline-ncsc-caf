@@ -1,42 +1,66 @@
 uid: SR-0004
 type: system_requirement
 status: approved
-title: CAF C2.a — Threat Hunting
-text: Threat Hunting
+title: CAF A2.a — Risk Management Process
+text: Your organisation has effective internal processes for managing risks to the security
+  and resilience of network and information systems related to the operation of your essential
+  function(s) and communicating associated activities.
 links:
-- target: UR-0003
+- target: UR-0002
   type: implements
 attrs:
-  source_ref: C2.a
+  source_ref: A2.a
   igp_not_achieved:
-  - You do not know the resources required for threat hunting.
-  - You do not have access to an effective threat hunting capability.
-  - Your threat hunts do not follow any structure and few if any records are created.
+  - Risk assessments are not based on a clearly defined set of threat assumptions.
+  - Risk assessment outputs are too complex or unwieldy to be consumed by decision-makers and
+    are not effectively communicated in a clear and timely manner.
+  - Risk assessments for network and information systems supporting your essential function(s)
+    are a "one-off" activity or not done at all.
+  - The security elements of projects or programmes are solely dependent on the completion of
+    a risk management assessment without any regard to the outcomes.
+  - There is no systematic process in place to ensure that identified security risks are managed
+    effectively.
+  - Systems are assessed in isolation, without consideration of dependencies and interactions
+    with other systems. (e.g. interactions between IT and OT environments).
+  - Security requirements and mitigations are arbitrary or are applied from a control catalogue
+    without consideration of how they contribute to the security of network and information
+    systems supporting your essential function(s).
+  - Risks remain unresolved on a register for prolonged periods of time awaiting senior decision-making
+    or resource allocation to resolve.
   igp_partially_achieved:
-  - You have identified the resources required to perform threat hunting and are able to deploy
-    these, in a timely manner, on an occasional basis.
-  - You deploy an effective threat hunting capability but not frequent enough to match the risks
-    posed to network and information systems supporting your essential function(s) (e.g. you
-    perform threat hunts in response to a tip off from a reputable source).
-  - Your threat hunts follow pre-determined and documented methods (e.g. hypothesis driven,
-    data driven, entity driven) designed to identify adverse activity not detected by automated
-    detections.
-  - You document details of threat hunts and post hunt analysis.
+  - Your organisational process ensures that security risks to network and information systems
+    relevant to essential function(s) are identified, analysed, prioritised, and managed.
+  - Your risk assessments are informed by an understanding of known and well understood threats
+    and vulnerabilities in network and information systems supporting your essential function(s).
+  - The output from your risk management process is a clear set of security requirements that
+    will address the risks in line with your organisational approach to security.
+  - Significant conclusions reached in the course of your risk management process are communicated
+    to key security decision-makers and accountable individuals.
+  - You conduct risk assessments when significant events potentially affect the essential function(s),
+    such as replacing a system, introducing new or emergent technologies or a change in the
+    cyber security threat.
   igp_achieved:
-  - You understand the resources required to perform threat hunting and these are deployed as
-    part of business as usual.
-  - You deploy threat hunting resources at a frequency that matches the risks posed to network
+  - Your organisational process ensures that security risks to network and information systems
+    relevant to essential function(s) are identified, analysed, prioritised, and managed.
+  - Your approach to risk is focused on the possibility of adverse impact to your essential
+    function(s), leading to a detailed understanding of how such impact might arise as a consequence
+    of possible threat actor actions and the security properties of network and information
+    systems supporting your essential function(s).
+  - Your risk assessments are based on a clearly understood set of threat assumptions, informed
+    by an up-to-date understanding of threats to network and information systems supporting
+    your essential function(s), your sector and wider national infrastructure.
+  - Your risk assessments are informed by an understanding of the vulnerabilities in network
     and information systems supporting your essential function(s).
-  - Your threat hunts follow pre-determined and documented methods (e.g. hypothesis driven,
-    data driven, entity driven) designed to identify adverse activity not detected by automated
-    detections.
-  - You turn threat hunts into automated detections and alerting where appropriate.
-  - You routinely record details of previous threat hunts and post hunt activities. You use
-    these to drive improvements in your threat hunting and security posture.
-  - You have justified confidence in the effectiveness of your threat hunts and the threat hunting
-    process is reviewed and updated to match the risks posed to network and information systems
-    supporting your essential function(s).
-  - You leverage automation to improve threat hunts where appropriate (e.g. some stages of the
-    threat hunting process are automated).
-  - Your threat hunts focus on the tactics, techniques and procedures (TTPs) of threats over
-    atomic IoCs (e.g. hashes, IP addresses, domain names etc).
+  - The output from your risk management process is a clear set of traceable and prioritised
+    security requirements that will address the risks in line with your organisational approach
+    to security.
+  - Significant conclusions reached in the course of your risk management process are communicated
+    to key security decision-makers and accountable individuals.
+  - Your risk assessments are dynamic and readily updated in the light of relevant changes which
+    may include technical changes to network and information systems supporting your essential
+    function(s), change of use, the introduction of new or emergent technologies or new threat
+    information.
+  - The effectiveness of your risk management process is reviewed regularly, and improvements
+    made as required.
+  - You anticipate technological developments that could be used to adversely impact network
+    and information systems supporting your essential function(s).

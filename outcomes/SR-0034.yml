@@ -1,0 +1,56 @@
+uid: SR-0034
+type: system_requirement
+status: approved
+title: CAF C1.e — Personnel Skills for Monitoring and Detection
+text: Monitoring and detection personnel skills and roles, including those outsourced, reflect
+  governance and reporting requirements, expected threats and the complexities of the network
+  or system data they need to use. Monitoring and detection personnel have sufficient knowledge
+  of network and information systems and the essential function(s) they need to protect.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: C1.e
+  igp_not_achieved:
+  - There are no personnel who perform a monitoring and detection function.
+  - Monitoring and detection personnel do not have the correct specialist skills.
+  - Monitoring and detection personnel are not capable of reporting against governance requirements.
+  - Monitoring and detection personnel have a lack of awareness of the essential function(s)
+    the organisation provides, what assets relate to those functions and hence the importance
+    of the log data and security events.
+  - Monitoring and detection personnel have no awareness of other roles or tasks outside of
+    security monitoring and detection that are relevant to the operation of your essential function(s).
+  - Monitoring and detection personnel are overwhelmed with the amount of data and alerts they
+    have to work with. Alert / triage fatigue is present.
+  igp_partially_achieved:
+  - Monitoring and detection personnel have some investigative skills and a basic understanding
+    of the data they need to work with.
+  - Monitoring and detection personnel can report to other parts of the organisation (e.g. security
+    directors, resilience managers).
+  - Monitoring and detection personnel are capable of following most of the required workflow(s).
+  - Monitoring and detection personnel are aware of some of the network and information systems
+    and your essential function(s), and can manage alerts relating to them.
+  - Monitoring and detection personnel have some understanding of the operational context (e.g.
+    people, processes, network and information systems that support your essential function(s))
+    to enhance the security monitoring function.
+  - Monitoring and detection personnel deal with their workload and cases effectively.
+  igp_achieved:
+  - You have monitoring and detection personnel who are responsible for the proactive and reactive
+    analysis, investigation and reporting of monitoring alerts including both security and performance.
+  - Monitoring and detection personnel have defined roles and skills that cover all parts of
+    the monitoring and investigation process.
+  - Monitoring and detection personnel follow policies, processes and procedures that address
+    all governance reporting requirements, internal and external.
+  - Monitoring and detection personnel are empowered to look beyond the fixed process to investigate
+    and understand non-standard threats.
+  - Monitoring and detection personnel are aware of the network and information systems and
+    your essential function(s), related assets and can identify and prioritise alerts and investigations
+    that relate to them.
+  - Monitoring and detection personnel drive and shape new log data collection and can make
+    effective use of it.
+  - Monitoring and detection personnel are capable of following all of the required workflow(s).
+  - Monitoring and detection personnel have a sufficient understanding of the operational context
+    (e.g. people, processes, network and information systems that support your essential function)
+    to enhance the security monitoring function.
+  - Monitoring and detection personnel deal with their workload and cases effectively as well
+    as identifying areas for improvement.

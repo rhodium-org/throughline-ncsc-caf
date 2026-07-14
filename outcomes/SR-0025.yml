@@ -1,0 +1,31 @@
+uid: SR-0025
+type: system_requirement
+status: approved
+title: CAF B5.a — Resilience Preparation
+text: You are prepared to restore the operation of your essential function(s) following adverse
+  impact to network and information systems.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: B5.a
+  igp_not_achieved:
+  - You have limited understanding of all the elements that are required to restore operation
+    of network and information systems supporting your essential function(s).
+  - You have not completed business continuity and disaster recovery plans for network and information
+    systems, including their dependencies, supporting the operation of the essential function(s).
+  - You have not fully assessed the practical implementation of your business continuity and
+    disaster recovery plans.
+  igp_partially_achieved:
+  - You know all network and information systems, and underlying technologies, that are necessary
+    to restore the operation of your essential function(s) and understand their interdependence.
+  - You know the order in which systems need to be recovered to efficiently and effectively
+    restore the operation of the essential function(s).
+  igp_achieved:
+  - You have business continuity and disaster recovery plans that have been tested for practicality,
+    effectiveness and completeness. Appropriate use is made of different test methods (e.g.
+    manual fail-over, table-top exercises, or red-teaming).
+  - You use your security awareness and threat intelligence sources to identify new or heightened
+    levels of risk, which result in immediate and potentially temporary security measures to
+    enhance the security of network and information systems supporting your essential function(s),
+    (e.g. in response to a widespread outbreak of very damaging malware).

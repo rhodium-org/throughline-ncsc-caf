@@ -1,0 +1,61 @@
+uid: SR-0008
+type: system_requirement
+status: approved
+title: CAF A4.a — Supply Chain
+text: You understand and effectively manage the risks associated with suppliers to the security
+  of network and information systems supporting the operation of your essential function(s).
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: A4.a
+  igp_not_achieved:
+  - You do not know what data belonging to you is held by suppliers, or how it is managed.
+  - Elements of the supply chain for network and information systems supporting your essential
+    function(s) are subcontracted and you have little or no visibility of the sub-contractors.
+  - You have no understanding of which contracts are relevant and / or relevant contracts do
+    not specify appropriate security obligations.
+  - Suppliers have access to network and information systems that support your essential function(s)
+    that is unrestricted, not monitored or bypasses your own security controls.
+  igp_partially_achieved:
+  - You understand the general risks suppliers may pose to network and information systems supporting
+    your essential function(s).
+  - You know the extent of your supply chain that supports network and information systems supporting
+    your essential function(s), including sub-contractors.
+  - Suppliers to network and information systems that support your essential function(s) can
+    demonstrate appropriate and proportionate levels of cyber security within the context of
+    common threats.
+  - You understand which contracts are relevant and you include appropriate security obligations,
+    in relevant contracts.
+  - You are aware of all third-party connections and have assurance that they meet your organisation's
+    security requirements.
+  - Your approach to security incident management considers incidents that might arise in your
+    supply chain.
+  - You have confidence that information held by suppliers that is necessary for the operation
+    of network and information systems supporting your essential function(s) is appropriately
+    protected from common threats.
+  igp_achieved:
+  - You have a deep understanding of your supply chain, including sub-contractors, and the wider
+    risks it faces.
+  - You consider factors such as your supplier's ownership, nationality, partnerships, competitors,
+    other organisations with which they sub-contract and their approach to cyber security. These
+    factors inform your risk assessment and are fully considered in your procurement lifecycle
+    processes and purchasing decisions.
+  - Your approach to supply chain risk management considers the risks to network and information
+    systems supporting your essential function(s) arising from supply chain subversion by capable
+    and well-resourced threat actors.
+  - Critical suppliers to network and information systems supporting your essential functions(s)
+    can demonstrate appropriate and proportionate levels of cyber security within the context
+    of capable and well-resourced threat actors.
+  - You have confidence that information held by suppliers that is essential to the operation
+    of network and information systems supporting your essential function(s) is appropriately
+    protected from capable and well-resourced threat actors.
+  - You understand which contracts are relevant and you include appropriate security obligations,
+    in relevant contracts.
+  - You have a proactive approach to contract management which may include a contract management
+    plan for relevant contracts.
+  - Customer / supplier ownership of responsibilities is defined in contracts.
+  - All network connections and data sharing with third parties are managed effectively and
+    proportionately.
+  - When appropriate, your incident management process and that of your suppliers provide mutual
+    support in the resolution of incidents.

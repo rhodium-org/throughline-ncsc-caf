@@ -1,0 +1,55 @@
+uid: SR-0009
+type: system_requirement
+status: approved
+title: CAF A4.b — Secure Software Development and Support
+text: You actively maximise the use of secure and supported software, whether developed internally
+  or sourced externally, within network and information systems supporting the operation of
+  your essential function(s).
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: A4.b
+  igp_not_achieved:
+  - Your software supplier(s) is unaware of the composition and provenance of software provided
+    to you.
+  - Software, including updates and patches, undergoes little to no testing.
+  - Updates and patches often introduce new problems or fail to address existing issues.
+  - Vulnerabilities are discovered in software despite the negligible difficulty of implementing
+    mitigations.
+  igp_partially_achieved:
+  - Your software supplier leverages secure development principles and practices.
+  - Your software supplier(s) can demonstrate a limited understanding of the composition and
+    provenance of software provided to you.
+  - You consider the security of environments (e.g. development, test and production), including
+    source code and repositories, used in the production of software to be appropriate and proportionate
+    within the context of common threats.
+  - The testing regime uses a range of different approaches (e.g. static and dynamic analysis,
+    unit and integration testing and point in time assessments) that verify all aspects of the
+    development lifecycle covering both functional and non-functional testing.
+  - You have arrangements in place with your software supplier to receive timely security updates,
+    patches and notifications.
+  - Software, including updates and patches, is obtained from your supplier(s) via secure channels.
+  - Your software supplier(s) has processes in place to identify, report and mitigate security
+    vulnerabilities.
+  - You have arrangements in place with your software supplier to be notified of any significant
+    events that may adversely impact network and information systems supporting your essential
+    function(s).
+  - If open-source software is used, you have taken appropriate and proportionate steps to establish
+    and maintain sufficient confidence in its security for its use.
+  - You have appropriate support and maintenance arrangements in place.
+  igp_achieved:
+  - Your software supplier(s) leverages an established secure software development framework
+    (e.g. NIST Secure Software Development Framework (SSDF), Microsoft Secure Development Lifecycle
+    (SDL)).
+  - Your software supplier can demonstrate a thorough understanding of the composition and provenance
+    of software provided to you, including any third-party components used in the development
+    of that software, and those components are being monitored for new vulnerabilities throughout
+    the lifespan of the product.
+  - You consider the security of environments (e.g. development, test, and production), including
+    source code and repositories, used in the production of software to be appropriate and proportionate
+    within the context of capable and well-resourced threat actors.
+  - The software development lifecycle is informed by a detailed and up to date understanding
+    of threat and applies appropriate techniques, such as threat modelling, to identify and
+    assess potential vulnerabilities and attack vectors.
+  - You can attest to the authenticity and integrity of software, including updates and patches.

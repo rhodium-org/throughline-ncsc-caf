@@ -1,0 +1,13 @@
+uid: UR-0005
+type: user_requirement
+status: approved
+title: B1 — Service Protection Policies, Processes and Procedures
+text: Service Protection Policies, Processes and Procedures
+rationale: The organisation defines, implements, communicates and enforces appropriate policies,
+  processes and procedures that direct its overall approach to securing systems and data that
+  support operation of essential functions.
+links:
+- target: INT-0002
+  type: derives_from
+attrs:
+  source_ref: B1

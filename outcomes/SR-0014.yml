@@ -1,0 +1,44 @@
+uid: SR-0014
+type: system_requirement
+status: approved
+title: CAF B2.c — Privileged User Management
+text: You closely manage privileged user access to network and information systems supporting
+  your essential function(s).
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: B2.c
+  igp_not_achieved:
+  - The identities of the individuals with privileged access to network and information systems
+    (infrastructure, platforms, software, configuration etc) supporting your essential function(s)
+    are not known or not managed.
+  - Privileged user access to network and information systems supporting your essential function(s)
+    is via weak authentication mechanisms (e.g. only simple passwords).
+  - The list of privileged users has not been reviewed recently (e.g. within the last 12 months).
+  - Privileged user access is granted on a system-wide basis rather than by role or function(s).
+  - Privileged user access to network and information systems supporting your essential function(s)
+    is via generic, shared or default name accounts.
+  - Where there are "always on" terminals which can perform privileged actions (such as in a
+    control room), there are no additional controls (e.g. physical controls) to ensure access
+    is appropriately restricted.
+  - There is no logical separation between roles that an individual may have and hence the actions
+    they perform (e.g. access to corporate email and privilege user actions).
+  igp_partially_achieved:
+  - All privileged user access to network and information systems supporting your essential
+    function(s) requires strong authentication, such as multi-factor authentication (MFA).
+  - The identities of the individuals with privileged access to network and information systems
+    (infrastructure, platforms, software, configuration etc) supporting your essential function(s)
+    are known and managed. This includes third parties.
+  - Activity by privileged users is routinely reviewed and validated (e.g. at least annually).
+  - Privileged users are only granted specific privileged user access rights which are essential
+    to their business role or function.
+  igp_achieved:
+  - Privileged user access to network and information systems supporting your essential function(s)
+    is carried out from dedicated separate accounts that are closely monitored and managed.
+  - The issuing of temporary, time-bound rights for privileged user access and / or external
+    third-party support access is in place.
+  - Privileged user access rights are regularly reviewed and always updated as part of your
+    joiners, movers and leavers process.
+  - All privileged user activity is routinely reviewed, validated and recorded for offline analysis
+    and investigation.
