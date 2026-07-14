@@ -1,0 +1,12 @@
+uid: UR-0004
+type: user_requirement
+status: approved
+title: D2 — Lessons Learned
+text: Lessons Learned
+rationale: When an incident occurs, steps are taken to understand its causes and to ensure remediating
+  action is taken to protect against future incidents.
+links:
+- target: INT-0004
+  type: derives_from
+attrs:
+  source_ref: D2

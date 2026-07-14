@@ -1,0 +1,14 @@
+uid: UR-0003
+type: user_requirement
+status: approved
+title: C2 — Threat Hunting
+text: Threat Hunting
+rationale: The organisation proactively seeks to detect, within networks and information systems,
+  adverse activity affecting, or with the potential to affect, the operation of essential functions
+  even when the activity evades standard security prevent / detect solutions (or when standard
+  solutions are not deployable).
+links:
+- target: INT-0003
+  type: derives_from
+attrs:
+  source_ref: C2

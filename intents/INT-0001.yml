@@ -1,0 +1,10 @@
+uid: INT-0001
+type: intent
+status: approved
+title: Objective A — Managing security risk
+text: Appropriate organisational structures, policies, processes and procedures in place to
+  understand, assess and systematically manage security risks to network and information systems
+  supporting essential functions.
+normative: false
+attrs:
+  source_ref: A

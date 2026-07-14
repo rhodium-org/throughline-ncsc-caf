@@ -1,0 +1,42 @@
+uid: SR-0002
+type: system_requirement
+status: approved
+title: CAF B6.a — Cyber Security Culture
+text: You develop and maintain a positive cyber security culture and a shared sense of responsibility.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: B6.a
+  igp_not_achieved:
+  - People in your organisation do not understand what they contribute to the cyber security
+    of network and information systems supporting your essential function(s).
+  - People in your organisation do not know how to raise a concern about cyber security.
+  - People believe that reporting issues may get them into trouble.
+  - Your organisation's approach to cyber security is perceived by staff as hindering the business
+    of the organisation and may encourage poor security behaviours.
+  - Formal or informal incentives and rewards conflict with the promotion of positive security
+    outcomes.
+  igp_partially_achieved:
+  - Your executive management understand and widely communicate the importance of a positive
+    cyber security culture. Positive attitudes, behaviours and expectations are described for
+    your organisation.
+  - All people in your organisation understand the contribution they make to the cyber security
+    of network and information systems supporting your essential functions(s).
+  - All individuals in your organisation know who to contact and where to access more information
+    about cyber security. They know how to raise a cyber security issue.
+  - You identify and address issues that inhibit people from behaving in a manner that supports
+    your intended cyber security outcomes.
+  igp_achieved:
+  - Your executive management clearly and effectively communicates the organisation's cyber
+    security priorities and objectives to all staff. Your organisation displays positive cyber
+    security attitudes, behaviours, expectations.
+  - People in your organisation raising potential cyber security incidents and issues are treated
+    positively.
+  - Individuals at all levels in your organisation routinely report concerns or issues about
+    cyber security and are recognised for their contribution to keeping the organisation secure.
+  - Your management is seen to be committed to and actively involved in cyber security.
+  - Your organisation communicates openly about cyber security, with any concern being taken
+    seriously.
+  - People across your organisation collaborate in cyber security activities and improvements,
+    building joint ownership and bringing knowledge of their area of expertise.

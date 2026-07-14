@@ -1,0 +1,10 @@
+uid: INT-0003
+type: intent
+status: approved
+title: Objective C — Detecting cyber security events
+text: Capabilities exist to ensure security defences remain effective and to detect cyber security
+  events and incidents adversely affecting, or with the potential to adversely affect, essential
+  function(s).
+normative: false
+attrs:
+  source_ref: C

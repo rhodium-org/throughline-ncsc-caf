@@ -1,0 +1,32 @@
+uid: SR-0006
+type: system_requirement
+status: approved
+title: CAF D2.b — Using Incidents to Drive Improvements
+text: Your organisation uses lessons learned from incidents to improve your security measures.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: D2.b
+  igp_not_achieved:
+  - Following incidents, lessons learned are not captured or are limited in scope.
+  - Improvements arising from lessons learned following an incident are not implemented or not
+    given sufficient organisational priority.
+  - Changes are made as a 'knee jerk' reaction to an incident without proper analysis and testing
+    to ensure the change is appropriate.
+  - You wait until a severe or high-profile incident has occurred before you take steps to improve.
+  igp_achieved:
+  - You have a documented incident review process / policy which ensures that lessons learned
+    from each incident, including near misses, are identified, captured, and acted upon.
+  - Lessons learned cover issues with reporting, roles, governance, skills and organisational
+    policies, processes and procedures as well as technical aspects of network and information
+    systems.
+  - You use lessons learned to improve security measures, including updating and retesting response
+    plans when necessary.
+  - Security improvements identified as a result of lessons learned are prioritised, with the
+    highest priority improvements completed promptly.
+  - Analysis is fed to senior management and incorporated into risk management and continuous
+    improvement.
+  - Your organisation maximises the lessons learned by using the analysis into 'what if' / 'if
+    only' scenarios.
+  - Your organisation learns from reported incidents in your sector and the wider national infrastructure.

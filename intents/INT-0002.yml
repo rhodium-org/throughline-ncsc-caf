@@ -1,0 +1,9 @@
+uid: INT-0002
+type: intent
+status: approved
+title: Objective B — Protecting against cyber attack
+text: Proportionate security measures are in place to protect network and information systems
+  supporting essential functions from cyber attack.
+normative: false
+attrs:
+  source_ref: B

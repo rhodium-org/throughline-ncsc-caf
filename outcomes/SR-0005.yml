@@ -1,0 +1,29 @@
+uid: SR-0005
+type: system_requirement
+status: approved
+title: CAF D2.a — Post Incident Analysis
+text: When an incident occurs, your organisation takes steps to understand its causes, informing
+  appropriate remediating action.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: D2.a
+  igp_not_achieved:
+  - You are not usually able to resolve incidents to a root cause or identify the contributing
+    factors within a broader systems context.
+  - You do not have a formal process for investigating causes.
+  - Investigators form theories early in the process and only seek evidence that affirms their
+    belief.
+  - Investigations are solely focused on identifying the person(s) who can be held responsible
+    for the incident.
+  igp_achieved:
+  - Post incident analysis is conducted routinely as a key part of your lessons learned activities
+    following an incident.
+  - Your post incident analysis is comprehensive, considering organisational factors (e.g. policies,
+    processes and procedures), technical factors (e.g. system design, vulnerabilities), human
+    factors (e.g. training, security culture) and any changes to threat.
+  - All relevant incident data is made available to the analysis team to perform post incident
+    analysis.
+  - Your analysis considers what could have happened under plausible, alternative circumstances
+    (e.g. 'what if' / 'if only' scenarios).

@@ -1,0 +1,65 @@
+[project]
+name = "NCSC Cyber Assessment Framework 4.0 (throughline source)"
+format_version = 2
+
+# A throughline *source*: a standalone graph a consuming project composes via
+# throughline-compose, importing it under a namespace (e.g. `caf`) and referencing
+# contributing outcomes as `caf:SR-0007`. The UIDs here are this source's own and
+# immutable; the CAF handle (`A2`, `A2.a`) lives in `attrs.source_ref`, never in the UID.
+
+[grounding]
+root_types = ["intent"]
+delivery_roots = ["intent"]
+ground_link_types = ["derives_from", "implements"]
+ai_origins = ["ai", "hybrid"]
+
+# The "why" spine is MULTI-ROOT by design — the reason the CAF earns this treatment. The
+# CAF is organised under four top-level **Objectives** (A Managing security risk, B
+# Protecting against cyber attack, C Detecting cyber security events, D Minimising the
+# impact of cyber security incidents), and those are four genuinely different reasons an
+# organisation must act — managing risk is not the same "why" as detecting events or
+# recovering from an incident. So there are four co-equal **root** intents
+# (INT-0001..INT-0004 = A..D), never a single umbrella that flattens every outcome's
+# reason-for-existing into one bland "…exists". Each Principle (e.g. `A2` Risk Management)
+# is a user_requirement that `derives_from` its own Objective and carries the principle's
+# published statement as its `rationale`; each Contributing Outcome (`A2.a`) is a
+# system_requirement that `implements` its principle. The CAF hierarchy is strict (one
+# objective per principle, one principle per outcome), so an outcome grounds to its
+# objective up implements->derives_from with no extra edge.
+
+[types.user_requirement]
+# source_ref = the CAF principle handle ("A2").
+attrs.source_ref = { required = true }
+
+[types.system_requirement]
+# source_ref = the CAF contributing-outcome handle ("A2.a"). The CAF is outcome-based, not
+# graded: there are no assurance levels, so (unlike ASVS/AISVS) no `attrs.level`. The
+# Indicators of Good Practice (the achieved / partially-achieved / not-achieved statements
+# an assessor checks) are carried as structured `attrs.igp_*` lists.
+attrs.source_ref = { required = true }
+
+[links]
+types = ["derives_from", "implements", "relates"]
+
+[link_rules]
+derives_from = { from = ["user_requirement"], to = ["intent"] }
+implements   = { from = ["system_requirement"], to = ["user_requirement"] }
+
+[status]
+values = ["proposed", "draft", "deferred", "approved", "ratified", "implemented",
+          "verified", "suspect", "rejected", "deleted"]
+
+[transitions]
+proposed    = ["draft", "approved", "ratified", "deferred", "rejected", "deleted"]
+draft       = ["approved", "deferred", "rejected", "deleted"]
+deferred    = ["draft", "approved", "rejected", "deleted"]
+approved    = ["ratified", "implemented", "deferred", "suspect", "rejected", "deleted"]
+ratified    = ["implemented", "suspect", "rejected", "deleted"]
+implemented = ["verified", "suspect", "rejected", "deleted"]
+verified    = ["implemented", "suspect", "deleted"]
+suspect     = ["approved", "ratified", "implemented", "verified", "rejected", "deleted"]
+rejected    = ["draft", "deleted"]
+
+# `tl docs` regenerates docs/*.md from the graph; `tl docs --check` gates it.
+[docs]
+paths = ["README.md", "docs/*.md"]

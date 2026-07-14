@@ -1,0 +1,35 @@
+uid: SR-0003
+type: system_requirement
+status: approved
+title: CAF B6.b — Cyber Security Training
+text: The people who support the operation of network and information systems supporting your
+  essential function(s) are appropriately trained in cyber security.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: B6.b
+  igp_not_achieved:
+  - There are teams who operate and support your essential function(s) that lack any cyber security
+    training.
+  - Cyber security training is restricted to specific roles in your organisation.
+  - Cyber security training records for your organisation are lacking or incomplete.
+  - Training is used as a "silver bullet" for all user security behaviours.
+  - The success of training is only measured by the number of people reached, rather than assessing
+    whether it has a positive impact on security behaviours.
+  - Training materials contain out of date or contradictory information, or information that
+    conflicts with other policies, processes or procedures.
+  igp_partially_achieved:
+  - You have defined appropriate cyber security training and awareness activities for all roles
+    in your organisation, from executives to the most junior roles.
+  - You use a range of teaching and communication techniques for cyber security training and
+    awareness to reach the widest audience effectively.
+  - Cyber security information is easily available.
+  igp_achieved:
+  - All people in your organisation, from the most senior to the most junior, follow appropriate
+    cyber security training paths.
+  - Each individuals cyber security training is tracked and refreshed at suitable intervals.
+  - You routinely evaluate your cyber security training and awareness activities to ensure they
+    reach the widest audience and are effective.
+  - You make cyber security information and good practice guidance easily accessible, widely
+    available and you know it is referenced and used within your organisation.
