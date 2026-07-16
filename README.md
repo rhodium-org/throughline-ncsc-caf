@@ -1,4 +1,4 @@
-# standard-ncsc-caf
+# throughline-ncsc-caf
 
 The **NCSC Cyber Assessment Framework (CAF) 4.0** expressed as a
 [throughline](https://pypi.org/project/throughline/) **source** — a standalone, grounded
@@ -88,7 +88,7 @@ In a consuming project's `throughline.toml`:
 
 ```toml
 [sources.caf]
-url = "https://github.com/rhodium-org/standard-ncsc-caf"
+url = "https://github.com/timebacksolutions/throughline-ncsc-caf"
 ref = "v4.0"
 ```
 
