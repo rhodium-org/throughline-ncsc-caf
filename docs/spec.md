@@ -32,6 +32,8 @@ Practice in `attrs.igp_*`. The CAF is outcome-based, so there are no assurance l
 
 *Rationale:* The organisation has appropriate management policies, processes and procedures in place to govern its approach to the security of network and information systems.
 
+*Derives from:* INT-0001
+
 **source_ref**: A1
 <!-- tl:end -->
 
@@ -51,6 +53,8 @@ Practice in `attrs.igp_*`. The CAF is outcome-based, so there are no assurance l
 > Risk Management
 
 *Rationale:* The organisation takes appropriate steps to identify, assess and understand security risks to network and information systems supporting the operation of essential functions. This includes an overall organisational approach to risk management.
+
+*Derives from:* INT-0001
 
 **source_ref**: A2
 <!-- tl:end -->
@@ -72,6 +76,8 @@ Practice in `attrs.igp_*`. The CAF is outcome-based, so there are no assurance l
 
 *Rationale:* Everything required to deliver, maintain or support network and information systems necessary for the operation of essential functions is determined and understood. This includes data, people and systems, as well as any supporting infrastructure (such as power or cooling).
 
+*Derives from:* INT-0001
+
 **source_ref**: A3
 <!-- tl:end -->
 
@@ -89,6 +95,8 @@ Practice in `attrs.igp_*`. The CAF is outcome-based, so there are no assurance l
 > Supply Chain
 
 *Rationale:* The organisation understands and manages security risks to network and information systems supporting the operation of essential functions that arise as a result of dependencies on suppliers. This includes ensuring that appropriate measures are employed where third party services are used.
+
+*Derives from:* INT-0001
 
 **source_ref**: A4
 <!-- tl:end -->
@@ -119,6 +127,8 @@ Practice in `attrs.igp_*`. The CAF is outcome-based, so there are no assurance l
 
 *Rationale:* The organisation defines, implements, communicates and enforces appropriate policies, processes and procedures that direct its overall approach to securing systems and data that support operation of essential functions.
 
+*Derives from:* INT-0002
+
 **source_ref**: B1
 <!-- tl:end -->
 
@@ -137,6 +147,8 @@ Practice in `attrs.igp_*`. The CAF is outcome-based, so there are no assurance l
 > Identity and Access Control
 
 *Rationale:* The organisation understands, documents and manages access to network and information systems supporting the operation of essential functions. Users (or automated functions) that can access data or systems are appropriately verified, authenticated and authorised.
+
+*Derives from:* INT-0002
 
 **source_ref**: B2
 <!-- tl:end -->
@@ -158,6 +170,8 @@ Practice in `attrs.igp_*`. The CAF is outcome-based, so there are no assurance l
 > Data Security
 
 *Rationale:* Data stored or transmitted electronically is protected from actions such as unauthorised access, modification, or deletion that may cause an adverse impact on essential functions. Such protection extends to the means by which authorised users, devices and systems access critical data necessary for the operation of essential functions. It also covers information that would assist a threat actor, such as design details of network and information systems.
+
+*Derives from:* INT-0002
 
 **source_ref**: B3
 <!-- tl:end -->
@@ -181,6 +195,8 @@ Practice in `attrs.igp_*`. The CAF is outcome-based, so there are no assurance l
 
 *Rationale:* Network and information systems and technology critical for the operation of essential functions are protected from cyber attack. An organisational understanding of risk to essential functions informs the use of robust and reliable protective security measures to effectively limit opportunities for threat actors to compromise networks and systems.
 
+*Derives from:* INT-0002
+
 **source_ref**: B4
 <!-- tl:end -->
 
@@ -202,6 +218,8 @@ Practice in `attrs.igp_*`. The CAF is outcome-based, so there are no assurance l
 
 *Rationale:* The organisation builds resilience against cyber attack and system failure into the design, implementation, operation and management of systems that support the operation of your essential function(s).
 
+*Derives from:* INT-0002
+
 **source_ref**: B5
 <!-- tl:end -->
 
@@ -221,6 +239,8 @@ Practice in `attrs.igp_*`. The CAF is outcome-based, so there are no assurance l
 > Staff Awareness and Training
 
 *Rationale:* Staff have appropriate awareness, knowledge and skills to carry out their organisational roles effectively in relation to the security of network and information systems supporting the operation of your essential function(s).
+
+*Derives from:* INT-0002
 
 **source_ref**: B6
 <!-- tl:end -->
@@ -251,6 +271,8 @@ Practice in `attrs.igp_*`. The CAF is outcome-based, so there are no assurance l
 
 *Rationale:* The organisation monitors the security status of network and information systems supporting the operation of essential function(s) in order to detect security events indicative of a security incident.
 
+*Derives from:* INT-0003
+
 **source_ref**: C1
 <!-- tl:end -->
 
@@ -273,6 +295,8 @@ Practice in `attrs.igp_*`. The CAF is outcome-based, so there are no assurance l
 > Threat Hunting
 
 *Rationale:* The organisation proactively seeks to detect, within networks and information systems, adverse activity affecting, or with the potential to affect, the operation of essential functions even when the activity evades standard security prevent / detect solutions (or when standard solutions are not deployable).
+
+*Derives from:* INT-0003
 
 **source_ref**: C2
 <!-- tl:end -->
@@ -302,6 +326,8 @@ Practice in `attrs.igp_*`. The CAF is outcome-based, so there are no assurance l
 
 *Rationale:* There are well-defined and tested incident management processes in place, that aim to ensure continuity of essential function(s) in the event of system or service failure. Mitigation activities designed to contain or limit the impact of compromise are also in place.
 
+*Derives from:* INT-0004
+
 **source_ref**: D1
 <!-- tl:end -->
 
@@ -321,6 +347,8 @@ Practice in `attrs.igp_*`. The CAF is outcome-based, so there are no assurance l
 > Lessons Learned
 
 *Rationale:* When an incident occurs, steps are taken to understand its causes and to ensure remediating action is taken to protect against future incidents.
+
+*Derives from:* INT-0004
 
 **source_ref**: D2
 <!-- tl:end -->
