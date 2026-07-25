@@ -3,7 +3,7 @@
 The **NCSC Cyber Assessment Framework (CAF) 4.0** expressed as a
 [throughline](https://pypi.org/project/throughline/) **source** — a standalone, grounded
 requirements graph that a consuming project composes with
-[throughline-compose](https://github.com/timebacksolutions/throughline-compose).
+[throughline-compose](https://github.com/rhodium-org/throughline-compose).
 
 This repository holds no application code. It is a directory of small YAML items with
 permanent UIDs, validated by `tl check`. Consumers import it under a namespace and
@@ -88,7 +88,7 @@ In a consuming project's `throughline.toml`:
 
 ```toml
 [sources.caf]
-url = "https://github.com/timebacksolutions/throughline-ncsc-caf"
+url = "https://github.com/rhodium-org/throughline-ncsc-caf"
 ref = "v4.0"
 ```
 
