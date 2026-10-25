@@ -1,6 +1,6 @@
 [project]
 name = "NCSC Cyber Assessment Framework 4.0 (throughline source)"
-format_version = 3
+format_version = 4
 
 # A throughline *source*: a standalone graph a consuming project composes via
 # throughline-compose, importing it under a namespace (e.g. `caf`) and referencing
