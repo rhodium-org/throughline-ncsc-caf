@@ -1,10 +1,11 @@
 uid: UR-0001
 type: user_requirement
-status: approved
+status: proposed
 title: A1 — Governance
 text: Governance
-rationale: The organisation has appropriate management policies, processes and procedures in
-  place to govern its approach to the security of network and information systems.
+rationale: The organisation has appropriate management policies, processes and procedures
+  in place to govern its approach to the security of network and information systems.
+normative: true
 links:
 - target: INT-0001
   type: derives_from

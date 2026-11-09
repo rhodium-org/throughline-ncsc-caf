@@ -1,39 +1,40 @@
 uid: SR-0001
 type: system_requirement
-status: approved
+status: proposed
 title: CAF A1.a — Board Direction
-text: You have effective organisational security management led at board level and articulated
-  clearly in corresponding policies.
+text: You have effective organisational security management led at board level and
+  articulated clearly in corresponding policies.
+normative: true
 links:
 - target: UR-0001
   type: implements
 attrs:
   source_ref: A1.a
   igp_not_achieved:
-  - The security of network and information systems related to the operation of essential function(s)
-    is not discussed or reported on regularly at board-level.
-  - Board-level discussions on the security of network and information systems are based on
-    partial or out-of-date information, without the benefit of expert guidance.
-  - The security of network and information systems supporting your essential function(s) are
-    not driven effectively by the direction set at board-level.
-  - Senior management or other pockets of the organisation consider themselves exempt from some
-    policies or expect special accommodations to be made.
+  - The security of network and information systems related to the operation of essential
+    function(s) is not discussed or reported on regularly at board-level.
+  - Board-level discussions on the security of network and information systems are
+    based on partial or out-of-date information, without the benefit of expert guidance.
+  - The security of network and information systems supporting your essential function(s)
+    are not driven effectively by the direction set at board-level.
+  - Senior management or other pockets of the organisation consider themselves exempt
+    from some policies or expect special accommodations to be made.
   igp_achieved:
-  - Your organisation's approach and policy relating to the security of network and information
-    systems supporting the operation of your essential function(s) are owned and managed at
-    board-level. These are communicated, in a meaningful way, to risk management decision-makers
-    across the organisation.
-  - Regular board-level discussions on the security of network and information systems supporting
-    the operation of your essential function(s) take place, based on timely and accurate information
-    and informed by expert guidance.
-  - There is a board-level individual who has overall accountability for the security of network
-    and information systems and drives regular discussion at board-level.
-  - Direction set at board-level is translated into effective organisational practices that
-    direct and control the security of network and information systems supporting your essential
-    function(s).
-  - The board has the information and understanding needed in order to effectively discuss how
-    the security and resilience of network and information systems contributes to the delivery
-    of essential function(s) and what the potential impact from compromise of those systems
-    would be.
-  - Security is recognised as an important enabler for the resilience of your essential function(s)
-    and considered in all relevant discussions.
+  - Your organisation's approach and policy relating to the security of network and
+    information systems supporting the operation of your essential function(s) are
+    owned and managed at board-level. These are communicated, in a meaningful way,
+    to risk management decision-makers across the organisation.
+  - Regular board-level discussions on the security of network and information systems
+    supporting the operation of your essential function(s) take place, based on timely
+    and accurate information and informed by expert guidance.
+  - There is a board-level individual who has overall accountability for the security
+    of network and information systems and drives regular discussion at board-level.
+  - Direction set at board-level is translated into effective organisational practices
+    that direct and control the security of network and information systems supporting
+    your essential function(s).
+  - The board has the information and understanding needed in order to effectively
+    discuss how the security and resilience of network and information systems contributes
+    to the delivery of essential function(s) and what the potential impact from compromise
+    of those systems would be.
+  - Security is recognised as an important enabler for the resilience of your essential
+    function(s) and considered in all relevant discussions.

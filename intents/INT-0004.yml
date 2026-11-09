@@ -1,9 +1,10 @@
 uid: INT-0004
 type: intent
-status: approved
+status: proposed
 title: Objective D — Minimising the impact of cyber security incidents
-text: Capabilities exist to minimise the adverse impact of a cyber security incident on the
-  operation of essential functions, including the restoration of those function(s) where necessary.
+text: Capabilities exist to minimise the adverse impact of a cyber security incident
+  on the operation of essential functions, including the restoration of those function(s)
+  where necessary.
 normative: false
 attrs:
   source_ref: D

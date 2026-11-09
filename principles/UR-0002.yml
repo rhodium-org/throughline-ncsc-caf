@@ -1,11 +1,12 @@
 uid: UR-0002
 type: user_requirement
-status: approved
+status: proposed
 title: A2 — Risk Management
 text: Risk Management
-rationale: The organisation takes appropriate steps to identify, assess and understand security
-  risks to network and information systems supporting the operation of essential functions.
-  This includes an overall organisational approach to risk management.
+rationale: The organisation takes appropriate steps to identify, assess and understand
+  security risks to network and information systems supporting the operation of essential
+  functions. This includes an overall organisational approach to risk management.
+normative: true
 links:
 - target: INT-0001
   type: derives_from

@@ -1,12 +1,13 @@
 uid: UR-0004
 type: user_requirement
-status: approved
+status: proposed
 title: A4 — Supply Chain
 text: Supply Chain
-rationale: The organisation understands and manages security risks to network and information
-  systems supporting the operation of essential functions that arise as a result of dependencies
-  on suppliers. This includes ensuring that appropriate measures are employed where third party
-  services are used.
+rationale: The organisation understands and manages security risks to network and
+  information systems supporting the operation of essential functions that arise
+  as a result of dependencies on suppliers. This includes ensuring that appropriate
+  measures are employed where third party services are used.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
